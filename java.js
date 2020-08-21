@@ -1,0 +1,9 @@
+$(document).ready(function(){
+    $('.foodie').slick({
+      autoplay:true,
+      slidesToShow:3,
+      slidesToScroll:1,
+      prevArrow:".previous-btn",
+      nextArrow:".next-btn",
+    });
+  });
